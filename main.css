@@ -30,6 +30,7 @@ input[type="text"], select {
   font-size: 16px;
   flex: 1 1 200px;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .whatsapp-label {
@@ -87,6 +88,7 @@ button {
 table {
   width: 100%;
   border-collapse: collapse;
+  border-radius: 20px;
 }
 
 thead {
