@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1 1 200px;
+  box-sizing: border-box;
+}
+
+.whatsapp-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+  flex: 1 1 100%;
+  margin-top: 6px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex: 1 1 100%;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1;
+  padding: 10px;
+}
+
+#submit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+#submit-btn:hover {
+  background-color: #45a049;
+}
+
+#cancelar-btn {
+  background-color: #ff9800;
+  color: white;
+}
+
+#cancelar-btn:hover {
+  background-color: #e68a00;
+}
+
+#limpar-lista-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+#limpar-lista-btn:hover {
+  background-color: #d32f2f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #4caf50;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.acao-btn {
+  padding: 5px 10px;
+  margin: 0 2px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.editar {
+  background-color: #2196F3;
+  color: white;
+}
+
+.editar:hover {
+  background-color: #0b7dda;
+}
+
+.excluir {
+  background-color: #f44336;
+  color: white;
+}
+
+.excluir:hover {
+  background-color: #d32f2f;
+}

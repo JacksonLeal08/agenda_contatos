@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agenda de Contatos</title>
+  <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📒 Agenda de Contatos</h1>
+
+    <form id="contact-form">
+      <input type="text" id="nome" placeholder="Nome" required />
+      <input type="text" id="telefone" placeholder="Telefone" required />
+      <select id="categoria" required>
+        <option value="">Selecione uma categoria</option>
+        <option value="Família">Família</option>
+        <option value="Amigos">Amigos</option>
+        <option value="Trabalho">Trabalho</option>
+        <option value="Favorito">Favorito</option>
+        <option value="Outros">Outros</option>
+      </select>
+
+      <label class="whatsapp-label">
+        <input type="checkbox" id="whatsapp" />
+        Tem WhatsApp?
+      </label>
+
+      <div class="botoes">
+        <button type="submit" id="submit-btn">Cadastrar</button>
+        <button type="button" id="cancelar-btn">Cancelar</button>
+        <button type="button" id="limpar-lista-btn">Limpar Lista</button>
+      </div>
+    </form>
+
+    <table id="agenda">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Categoria</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <footer style="text-align: center; margin-top: 30px; color: #777; font-size: 14px;">
+    &copy; 2025 Jackson Leal. Todos os direitos reservados.
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
